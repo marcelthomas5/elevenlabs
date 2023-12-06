@@ -1,5 +1,5 @@
 import 'dotenv/config';
-import { ElevenLabs } from './src';
+import { ElevenLabs } from '../src';
 
 (async () => {
   const voice = new ElevenLabs();
@@ -8,5 +8,6 @@ import { ElevenLabs } from './src';
     text: 'This is a test of the ElevenLabs API.',
     fileName: 'test.mp3',
   });
+
   console.log(result);
 })();
