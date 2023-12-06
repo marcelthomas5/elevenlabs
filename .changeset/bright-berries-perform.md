@@ -1,5 +1,0 @@
----
-"elevenlabs": patch
----
-
-Added textToSpeech
