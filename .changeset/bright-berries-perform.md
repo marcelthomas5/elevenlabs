@@ -1,0 +1,5 @@
+---
+"elevenlabs": patch
+---
+
+Added textToSpeech

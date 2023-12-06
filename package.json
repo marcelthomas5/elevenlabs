@@ -6,6 +6,7 @@
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "scripts": {
+    "dev": "tsx watch dev.ts",
     "build": "tsup src/index.ts --format cjs,esm --dts",
     "lint": "tsc",
     "changeset": "changeset",
@@ -13,12 +14,28 @@
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
+    "dotenv": "^16.3.1",
     "tsup": "^8.0.1",
+    "tsx": "^4.6.2",
     "typescript": "^5.3.2"
   },
   "keywords": [
     "elevenlabs"
   ],
-  "author": "Marcel Thomas",
-  "license": "MIT"
+  "author": {
+    "name": "Marcel Thomas",
+    "url": "https://marcelthomas.co.uk"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelthomas5/elevenlabs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelthomas5/elevenlabs/issues"
+  },
+  "homepage": "https://github.com/marcelthomas5/elevenlabs",
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
 }
