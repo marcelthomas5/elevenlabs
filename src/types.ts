@@ -6,7 +6,6 @@ export type ElevenLabsOptions = {
 
 export type TextToSpeechOptions = {
   text: string;
-  fileName: string;
   modelId?: string;
   stability?: number;
   similarityBoost?: number;
