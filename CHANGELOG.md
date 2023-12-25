@@ -1,5 +1,11 @@
 # elevenlabs
 
+## 0.0.4
+
+### Patch Changes
+
+- d12d327: Updated response type to arraybuffer
+
 ## 0.0.3
 
 ### Patch Changes
