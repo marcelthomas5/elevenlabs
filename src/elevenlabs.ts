@@ -51,6 +51,7 @@ export class ElevenLabs {
         'xi-api-key': this.apiKey,
         'Content-Type': 'application/json',
       },
+      responseType: 'arraybuffer',
     });
 
     return data as Buffer;
